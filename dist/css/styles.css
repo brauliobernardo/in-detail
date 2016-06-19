@@ -12,6 +12,10 @@ html, body {
     color: #eef;
 }
 
+#content-jumbo {
+  background-color: #fff;
+}
+
 footer .list-group {
   padding: 0.1rem;
 }
@@ -64,9 +68,7 @@ input[type="file"] {
  #######################  Home ############
  ###########################################
  */
- #content-jumbo {
-   background-color: #fff;
- }
+
 #main-jumbo {
   background: #333;
 }

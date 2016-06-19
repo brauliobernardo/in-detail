@@ -63,7 +63,8 @@
               </nav>
               <!-- end of navigation -->
 
-              <div class="jumbotron jumbotron-fluid p-t-3 text-xs-center" style="background-color: #fff">
+              <!-- real content -->
+              <div class="jumbotron jumbotron-fluid p-t-3 text-xs-center" id="content-jumbo">
                 <div class="container-fluid">
                   <h1 class="display-6 m-t-3"><img src="../dist/img/indetail_normal_black.png"></h1>
                   <hr class="m-y-2">
@@ -116,7 +117,48 @@
                   <!-- end of Gallery pics -->
                 </div>
               </div><!-- main jumbotron -->
-            </div> <!-- main container-fluid -->
+              <!-- footer -->
+              <footer class="container-fluid" style="padding:0px">
+                <div id="footer-container" class="row text-xs-center">
+                  <div class="list-group col-md-4">
+                    <h5 class="m-y-2">GRAPHIC DESIGN FOR PRINT</h5>
+                    <a href="#" class="list-group-item">Brochure Design</a>
+                    <a href="#" class="list-group-item">Product Catalogues</a>
+                    <a href="#" class="list-group-item">Annual Report Design</a>
+                    <a href="#" class="list-group-item">Newsletters</a>
+                    <a href="#" class="list-group-item">Magazine Adverts</a>
+                    <a href="#" class="list-group-item">Product Packaging</a>
+                    <a href="#" class="list-group-item">Marketing Collateral</a>
+                  </div>
+                  <div class="list-group col-md-4">
+                    <h5 class="m-y-2">WEBSITE DESIGN &amp; DEVELOPMENT</h5>
+                    <a href="#" class="list-group-item">Website Design and Development</a>
+                    <a href="../seo/" class="list-group-item">Search Engine Optimization – SEO</a>
+                  </div>
+                  <ul class="list-group col-md-4">
+                    <h5 class="m-y-2">CONTACT</h5>
+                    <li class="list-group-item">011-021-3156</li>
+                    <a href="#" id="facebook-btn" class="list-group-item"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" id="google-plus-btn"class="list-group-item"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="#" id="twitter-btn" class="list-group-item"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </ul>
+                </div>
+                <div id="copyright-section" class="container-fluid text-xs-center m-t-3">
+                  <hr>
+                  <p>&copy; Copyright 1991 -
+                    <script language="JavaScript" type="text/javascript">
+                        now = new Date
+                        theYear=now.getYear()
+                        if (theYear < 1900)
+                        theYear=theYear+1900
+                        document.write(theYear)
+                    </script>
+    In-Detail Design &amp; Advertising | All Rights Reserved | Powered by <a href="#">This Really Awesome Agency</a></p>
+                </div>
+              </footer>
+              <!-- end of footer -->
+            </div>
+            <!-- end of first container -->
             <script type="text/javascript" src="../dist/js/jquery.min.js"></script>
             <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
             <script type="text/javascript" src="../dist/js/ekko-lightbox.min.js"></script>
