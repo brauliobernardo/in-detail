@@ -1,0 +1,169 @@
+/*
+############################################
+####################  General ############
+###########################################
+*/
+html, body {
+  height: 100%;
+}
+
+::selection {
+    background-color: #666;
+    color: #eef;
+}
+
+footer .list-group {
+  padding: 0.1rem;
+}
+
+#footer-container {
+  margin: 0px;
+  padding: 0.5rem;
+}
+
+#copyright-section a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#copyright-section a:hover, #copyright-section a:focus {
+  color: #1a90b6;
+}
+
+form {
+  width: 80%;
+  text-align: center;
+  margin: 3em auto;
+}
+
+form label {
+  background-color: #1a80b6;
+  color: #fff;
+  padding: 0em 1em;
+  margin: 1rem auto;
+}
+
+input[type="file"] {
+  background-color: #666;
+  color: #fff;
+}
+
+.bg-indetailBlue {
+  background-color: #1a80b6;
+  color: #fff;
+}
+
+.page-title {
+  color: #999;
+  font-family: 'Pacifico', "Comic Sans MS", cursive, sans-serif;
+  margin: 2rem auto;
+}
+/*
+############################################
+ #######################  Home ############
+ ###########################################
+ */
+ #content-jumbo {
+   background-color: #fff;
+ }
+#main-jumbo {
+  background: #333;
+}
+#home-twins .card {
+  padding-bottom: 1.5rem;
+}
+#home-twins .card:nth-child(1) {
+  background-color: #1a80b6;
+  border: none;
+}
+#home-twins .card:nth-child(2) {
+  background: #444;
+  border: none;
+}
+
+#facebook-btn:hover, #facebook-btn:focus {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+#google-plus-btn:hover, #google-plus-btn:focus {
+  background-color: #dd4b39;
+  color: #fff;
+}
+
+#twitter-btn:hover, #twitter-btn:focus {
+  background-color: #55acee;
+  color: #fff;
+}
+
+/*
+############################################
+###################  Services ############
+###########################################
+*/
+
+/*
+############################################
+ ########################  SEO ############
+ ###########################################
+ */
+.seo-features-container {
+  background-color: #1a80b6;
+  color: #fff;
+}
+/*
+############################################
+#################  The Talent ############
+###########################################
+*/
+.bg-gray {
+  background: rgb(63, 63, 64);
+  color: rgb(255, 255, 255);
+}
+.bg-blue {
+  background: rgb(0, 186, 185);
+  color: rgb(255, 255, 255);
+}
+.bg-pink {
+  background: rgb(232, 32, 90);
+  color: rgb(255, 255, 255);
+}
+.bg-red {
+  background: rgb(232, 93, 94);
+  color: rgb(255, 255, 255);
+}
+.bg-green {
+  background: rgb(127, 193, 64);
+  color: rgb(255, 255, 255);
+}
+.bg-greenblue {
+  background: rgb(153, 204, 153);
+  color: rgb(255, 255, 255);
+}
+/*
+############################################
+##################  Portfolio ############
+###########################################
+*/
+.portfolio-cards-container img {
+  border: 1px solid #1a80b6;
+}
+
+
+/*
+############################################
+######################  Quote ############
+###########################################
+*/
+
+/*
+############################################
+####################  Contact ############
+###########################################
+*/
+#mapFrame {
+  width: 100%;
+  height: 20rem;
+  margin: 2rem auto;
+}
